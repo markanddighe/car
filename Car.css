@@ -1,0 +1,210 @@
+.header {
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    height: 25px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: end;
+    padding-right: 20px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.container {
+    background-image: url(./assets/welcome-banner.jpg);
+    height: 100%;
+    padding-top: 2px;
+    height: 830px;
+}
+
+.container p {
+    color: white;
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#para {
+    font-size: 22px;
+    margin-left: 7%;
+}
+
+.button {
+    background-color: #4e4ffa;
+    width: 180px;
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+.button1 {
+    background-color: #4e4ffa;
+    width: 180px;
+    height: 50px;
+    color: white;
+    margin-top: 30px;
+}
+
+.divSection {
+    background-color: #fff;
+    width: 80%;
+    height: 150px;
+    margin-left: 350px;
+    transform: translate(-200px, -200px);
+    padding-bottom: 200px;
+    border-radius: 3px;
+    box-shadow: 0 10px 40px 0px rgba(38, 40, 64, .2);
+    ;
+}
+
+.dev {
+    /* justify-content: space-around; */
+    display: flex;
+    /* margin-right: 18%; */
+}
+
+.oneSection {
+    width: 200px;
+    height: 60px;
+    background-color: #f8f8f8;
+    margin-left: 60px;
+    padding: 8px;
+
+}
+
+.h2 {
+    margin-left: 60px;
+    text-decoration: none;
+    color: #444a57;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.searchButon {
+    margin-top: 170px;
+    background-color: #4e4ffa;
+    color: white;
+    width: 180px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+.threeBox {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.oneDiv {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 3px;
+    box-shadow: 0 10px 40px 0px rgba(38, 40, 64, .2);;
+}
+
+.devPara {
+    font-size: 20px;
+    text-align: center;
+    
+    margin-top: 50px;
+    color: #444a57;
+}
+
+.devSubPara {
+    text-align: justify;
+    font-size: 20px;
+    width: 300px;
+    padding-left: 50px;
+    color: #818998;
+}
+
+.divImage {
+    margin-left: 155px;
+}
+
+.hoverDiv:hover {
+    background-color: #4e4ffa;
+    color: red;
+}
+
+.newest {
+    background-color: #f8f9fb;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+
+}
+
+.FeaturedCars {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.featuredBox {
+    width: 100%;
+    height: 400px;
+
+}
+
+.featuredBox1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.bmwTitle {
+    display: flex;
+
+}
+
+.nextBoxTitle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clientSay {
+    background-color: #f8f9fb;
+    width: 100%;
+    height: 600px;
+}
+
+.clientH1 {
+    text-align: center;
+    padding: 80px;
+
+}
+
+.loverdiv:hover {
+    background-color: #4e4ffa;
+}
+
+.imageDiv {
+    width: 100%;
+    height: 300px;
+    background-color: #d8d8d8
+}
+
+.footer {
+    width: 100%;
+    height: 530px;
+    background-color:#2a2d54;
+}
